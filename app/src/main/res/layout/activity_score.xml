@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:textAlignment="textEnd"
+    tools:context=".ScoreActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginBottom="128dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/quiz_img"/>
+
+    <TextView
+        android:id="@+id/txtResultw"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="61dp"
+        android:text="Wrong Answers: "
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnExit"
+        app:layout_constraintEnd_toStartOf="@+id/txtResultWrong"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResult" />
+
+    <Button
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Play Again"
+        android:textColor="#4D8A07"
+        android:textSize="16sp"
+        app:backgroundTint="#FFEB3B"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnExit"
+        app:layout_constraintEnd_toStartOf="@+id/btnExit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="55dp"
+        android:text="Exit"
+        android:textColor="#4D8A07"
+        android:textSize="16sp"
+        app:backgroundTint="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnPlayAgain"
+        app:layout_constraintTop_toBottomOf="@+id/txtResultw" />
+
+    <TextView
+        android:id="@+id/txtResultCorrect"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/txtResult" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="50dp"
+        android:text="Correct Answers: "
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtResultw"
+        app:layout_constraintEnd_toStartOf="@+id/txtResultCorrect"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/txtResultWrong"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtResultw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/txtResultw" />
+</androidx.constraintlayout.widget.ConstraintLayout>

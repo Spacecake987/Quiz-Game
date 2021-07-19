@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "331058241778",
+    "firebase_url": "https://quiz-game-36f6b-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "quiz-game-36f6b",
+    "storage_bucket": "quiz-game-36f6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331058241778:android:1e7253e92043ce5f49f06b",
+        "android_client_info": {
+          "package_name": "com.junglist963.quiz_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331058241778-pkfh7qof2qm82jamqtl05g88qjdojcl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgEmCm695D1zb-rrk-UMWyqlsLE2DXg00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331058241778-pkfh7qof2qm82jamqtl05g88qjdojcl2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331058241778:android:94e097ec5651c01349f06b",
+        "android_client_info": {
+          "package_name": "com.junglist963.quizgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331058241778-pkfh7qof2qm82jamqtl05g88qjdojcl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgEmCm695D1zb-rrk-UMWyqlsLE2DXg00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331058241778-pkfh7qof2qm82jamqtl05g88qjdojcl2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
